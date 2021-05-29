@@ -32,6 +32,22 @@
 
 {{--   <livewire:dropdown-search/>--}}
 {{--   <livewire:form/>--}}
-    <livewire:data-table />
+{{--    <livewire:data-table />--}}
+
+{{--    <livewire:poll />--}}
+    {{--    handle comment--}}
+{{--    <div class="block mx-auto my-y-12 px-8 py-4 bg-pink-200">--}}
+{{--        <h2>{{$post->title}}</h2>--}}
+{{--        <p>{{$post->body}}</p>--}}
+{{--        <span>{{$post->created_at}}</span>--}}
+{{--    </div>--}}
+{{--    <livewire:comment-section :post="$post" />--}}
+
+{{--    handle comment--}}
+<livewire:files-upload />
+@endsection
+
+@section('alpine')
+    <script type="module" src="//unpkg.com/@grafikart/drop-files-element"></script>
 @endsection
 

@@ -25,6 +25,26 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <style>
+        progress {
+            border-radius: 8px;
+            overflow: hidden;
+            width: 100%;
+            box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+        }
+        progress::-webkit-progress-bar {
+            background-color: #C084FC;
+            border-radius: 7px;
+        }
+        progress::-webkit-progress-value {
+            background-color: #7E22CE;
+            border-radius: 7px;
+
+        }
+        progress::-moz-progress-bar {
+            /* style rules */
+        }
+    </style>
 </head>
 
 <body>
